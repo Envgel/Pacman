@@ -6,14 +6,14 @@ The Pac-Man projects were developed for UC Berkeley's introductory artificial in
 
 There are four pars in this project:
 
-#Part 1: Implement the Iterative Deeping Search algorithm. You should be able to test the algorithms using the following command:
+# Part 1: Implement the Iterative Deeping Search algorithm. You should be able to test the algorithms using the following command:
 
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ids
 
-#Part 2: Implement the Weighted A* algorithm discussed in lectures using W = 2. You should be able to test the algorithm using the following command:
+# Part 2: Implement the Weighted A* algorithm discussed in lectures using W = 2. You should be able to test the algorithm using the following command:
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=wastar,heuristic=manhattanHeuristic
 
-#Part 3: Just like in Q7 of the Berkerley Pac
+# Part 3: Just like in Q7 of the Berkerley Pac
 Man framework, we woud like to create an agent that will eat all of the dots in a maze.
 Before doing so, however, the agent must eat a Capsule that is present in the maze. Your
 code should ensure that no food is eaten before the Capsule. You can assume that there is
